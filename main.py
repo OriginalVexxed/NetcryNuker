@@ -8,14 +8,14 @@ import colorama
 from colorama import Fore, init
 from pystyle import Center, Write, Colors, Colorate
 
-"""@a1lw and @loding_x coded this
+"""@wrd2vexxed and @wrd2 coded this
 if you're planning on skidding this code, keep this comment please and thank you mr skid man"""
 
 init()
 
 options = """
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃     discord.gg/9rRHUYzCHG       ┃     github.com/dropalways       ┃
+┃     discord.gg/jNJ3Hkhmcq       ┃     github.com/OriginalVexxed   ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃  [1] Mass ban                   ┃  [10] . . . . . . . . . . . . . ┃
 ┃  [2] Mass create channels       ┃  [11] . . . . . . . . . . . . . ┃
