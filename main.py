@@ -8,7 +8,7 @@ import colorama
 from colorama import Fore, init
 from pystyle import Center, Write, Colors, Colorate
 
-"""@wrd2vexxed and @wrd2 coded this
+"""@wrd2vexxed and @wrd2scb coded this
 if you're planning on skidding this code, keep this comment please and thank you mr skid man"""
 
 init()
